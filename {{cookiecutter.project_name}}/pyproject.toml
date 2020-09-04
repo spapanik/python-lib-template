@@ -27,7 +27,7 @@ include = ["CHANGELOG.md"]
 repository = "{{cookiecutter.url}}"
 
 keywords = ["{{cookiecutter.main_keyword}}"]
-classifiers=[
+classifiers = [
     "Development Status :: 3 - Alpha",
     "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
     "Operating System :: OS Independent",
