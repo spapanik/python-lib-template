@@ -4,6 +4,7 @@ __pycache__/
 
 # tests
 .coverage
+htmlcov/
 
 # installation artifacts
 .yamk/
