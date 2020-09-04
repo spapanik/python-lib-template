@@ -20,7 +20,7 @@ authors = [
     "{{cookiecutter.main_author}}",
 ]
 
-license = "LGPLv3"
+license = "LGPL-3.0+"
 readme = "README.md"
 include = ["CHANGELOG.md"]
 
