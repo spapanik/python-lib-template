@@ -17,7 +17,7 @@ name = "{{cookiecutter.project_name}}"
 version = "0.1.0"
 description = "{{cookiecutter.description}}"
 authors = [
-    "{{cookiecutter.main_author}}",
+    "{{cookiecutter.author_name}} <{{cookiecutter.author_email}}>",
 ]
 
 license = "LGPL-3.0+"
@@ -37,7 +37,7 @@ python = "^3.6.0"
 
 [tool.poetry.dev-dependencies]
 black = {version = "*", allow-prereleases = true}
-isort = "^5.4.0"
+isort = "^5.5.0"
 
 pytest = "^6.0.0"
 pytest-cov = "^2.10.0"
