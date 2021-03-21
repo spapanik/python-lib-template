@@ -5,7 +5,7 @@ The format is based on [Keep a Changelog][clog], and this project adheres to [Se
 
 ## [Unreleased]
 
-[unreleased]: https://github.com/{{cookiecutter.author_email}}/{{cookiecutter.project_name}}/compare/v0.1.0...main
+[unreleased]: {{cookiecutter.url}}/compare/v0.1.0...main
 
 [clog]: https://keepachangelog.com/en/1.0.0/
 [semver]: https://semver.org/spec/v2.0.0.html
