@@ -12,6 +12,14 @@ include_trailing_comma = true
 known_tests = "tests"
 sections = ["STDLIB", "THIRDPARTY", "FIRSTPARTY", "TESTS"]
 
+[tool.mypy]
+ignore_missing_imports = True
+strict_optional = False
+warn_return_any = True
+warn_redundant_casts = True
+warn_unused_ignores = True
+warn_unreachable = True
+
 [tool.pytest.ini_options]
 addopts = "-vv"
 testpaths = "tests"
