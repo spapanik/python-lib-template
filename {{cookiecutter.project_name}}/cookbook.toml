@@ -1,9 +1,10 @@
 ["$globals"]
 shell = "bash"
-vars = [
-    { poetry_extra = "--remove-untracked" },
-    { runner = "poetry run" },
-]
+version = 4
+
+["$globals".vars]
+poetry_sync = "--sync"
+runner = "poetry run"
 
 [all]
 alias = "install"
@@ -15,7 +16,7 @@ requires = [
     "poetry.lock",
 ]
 commands = [
-    "poetry install ${poetry_extra}",
+    "poetry install ${poetry_sync} ${poetry_extra}",
 ]
 
 [format]
@@ -36,6 +37,7 @@ requires = [
 commands = [
     "${runner} isort --check .",
     "${runner} black --check .",
+    "${runner} poetry lock --check",
     "${runner} flake8 .",
     "${runner} mypy .",
 ]
