@@ -57,8 +57,7 @@ authors = [
 ]
 
 license = "LGPL-3.0+"
-readme = "README.md"
-include = ["CHANGELOG.md"]
+readme = "README.rst"
 
 repository = "{{cookiecutter.url}}"
 
