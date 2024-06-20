@@ -1,6 +1,6 @@
-site_name: {{cookiecutter.project_name}}
+site_name: {{ project_name }}
 
-repo_url: {{cookiecutter.url}}
+repo_url: {{ project_url }}
 
 nav:
   - Home: README.md
