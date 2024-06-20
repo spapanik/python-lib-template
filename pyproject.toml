@@ -125,22 +125,22 @@ skip_covered = true
 skip_empty = true
 
 [tool.poetry]
-name = "{{cookiecutter.project_name}}"
+name = "{{project_name}}"
 version = "0.1.0"
-description = "{{cookiecutter.description}}"
+description = "{{description}}"
 authors = [
-    "{{cookiecutter.author_name}} <{{cookiecutter.author_email}}>",
+    "{{author_name}} <{{author_email}}>",
 ]
 
 license = "LGPL-3.0+"
 readme = "docs/README.md"
 
-homepage = "https://{{cookiecutter.project_name}}.readthedocs.io/en/stable/"
-repository = "{{cookiecutter.url}}"
-documentation = "https://{{cookiecutter.project_name}}.readthedocs.io/en/stable/"
+homepage = "https://{{project_name}}.readthedocs.io/en/stable/"
+repository = "{{project_url}}"
+documentation = "https://{{project_name}}.readthedocs.io/en/stable/"
 
 keywords = [
-    "{{cookiecutter.main_keyword}}",
+    "{{main_keyword}}",
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",
