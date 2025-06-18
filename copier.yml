@@ -1,0 +1,26 @@
+_exclude:
+  - /.git/
+  - /copier.yml
+  - /README.md
+_tasks:
+  - git init
+  - git add .
+  - git commit -m "🎉 Initial commit"
+project_name:
+  type: str
+  help: What is your project's name?
+description:
+  type: str
+  help: What is the project's short description?
+main_keyword:
+  type: str
+  help: What is the main keyword for the project?
+github_handle:
+  type: str
+  help: What is your github handle?
+author_name:
+  type: str
+  help: What is your name?
+author_email:
+  type: str
+  help: What is your email?
